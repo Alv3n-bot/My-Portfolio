@@ -65,16 +65,7 @@ export default function Hero() {
             </p>
 
             {/* CTA */}
-            <button
-            className="self-start border-[3px] border-black bg-black text-[#E0E0E0] font-medium uppercase tracking-widest transition-all duration-200 hover:bg-[#E0E0E0] hover:text-black"
-            style={{
-                fontSize: "clamp(0.65rem, 0.9vw, 0.8rem)",
-            padding: "clamp(0.5rem, 1vw, 0.75rem) clamp(1rem, 2vw, 1.75rem)",
-            fontFamily: "'DM Sans', sans-serif",
-            }}
-            >
-            View Projects
-            </button>
+
 
             </div>
 
