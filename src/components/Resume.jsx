@@ -117,6 +117,7 @@ export default function Resume() {
             {[
                 { label: "Programming & Frameworks", value: "React.js, Zustand, AI integration" },
                 { label: "Tools & Technologies", value: "HTML, CSS, Git, basic computer packages" },
+                { label: "Professional Skills", value: "Time management, problem-solving, project organization, self-directed learning" },
                 { label: "Certifications", value: "ALX Foundations Bootcamp 2025" },
             ].map((s) => (
                 <p key={s.label} style={{ fontSize: "clamp(0.68rem, 0.9vw, 0.84rem)", lineHeight: 1.7, margin: 0, color: "rgba(0,0,0,0.78)" }}>

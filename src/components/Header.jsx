@@ -1,8 +1,6 @@
 import Logo from "../assets/Logo.png";
-
 export default function Header() {
   const navLinks = ["Projects", "Tech Stack", "Resume", "Contact"];
-
   return (
     <>
     <style>{`
@@ -12,9 +10,7 @@ export default function Header() {
       .nav-border { border-left: 3px solid black; }
       @media (min-width: 1024px) { .nav-border { border-left-width: 5px; } }
       `}</style>
-
       <header style={{ width: "100%", display: "flex", alignItems: "center" }}>
-
       {/* Logo */}
       {/* Logo */}
       <div style={{ flexShrink: 0 }}>
@@ -24,7 +20,6 @@ export default function Header() {
       style={{ width: "clamp(36px, 4vw, 56px)", height: "clamp(36px, 4vw, 56px)", display: "block", objectFit: "cover" }}
       />
       </div>
-
       {/* Nav */}
       <nav style={{ display: "flex", alignItems: "stretch", marginLeft: "auto" }}>
       {navLinks.map((link, i) => (
@@ -50,7 +45,6 @@ export default function Header() {
         </button>
       ))}
       </nav>
-
       </header>
       </>
   );
