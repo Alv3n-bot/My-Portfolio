@@ -5,19 +5,20 @@ import Contact from "./components/Contact.jsx";
 import Projects from "./components/Projects.jsx"
 import TechStack from "./components/TechStack.jsx"
 import Hero from "./components/Hero.jsx"
-
+import Resume from "./components/Resume.jsx"
 function App() {
 
    return (
     <>
-    <div className="m-0 p-0">
+
    <Header />
-      <Hero />
+   <Hero />
    <Projects />
    <TechStack />
+   <Resume />
    <Contact />
-   </div>
-    </>
+
+  </>
   )
 }
 
